@@ -1,4 +1,30 @@
 {
+  "api": {
+    "nomgames": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "nomgamesf70b7c5e"
+        }
+      ],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authnomgamesf70b7c5e"
+            }
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
   "auth": {
     "nomgamesf70b7c5e": {
       "customAuth": false,
@@ -26,5 +52,6 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
     }
-  }
+  },
+  "function": {}
 }

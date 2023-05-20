@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "nomgames",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authnomgamesf70b7c5e",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

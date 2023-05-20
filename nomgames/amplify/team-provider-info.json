@@ -9,11 +9,15 @@
       "UnauthRoleName": "amplify-nomgames-dev-92258-unauthRole",
       "StackName": "amplify-nomgames-dev-92258",
       "StackId": "arn:aws:cloudformation:eu-west-2:319002363637:stack/amplify-nomgames-dev-92258/87983190-f6e7-11ed-b5bf-06dae4b2b258",
-      "AmplifyAppId": "d302r046uxo7vb"
+      "AmplifyAppId": "d302r046uxo7vb",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-nomgames-dev-92258-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
         "nomgamesf70b7c5e": {}
+      },
+      "api": {
+        "nomgames": {}
       }
     }
   }

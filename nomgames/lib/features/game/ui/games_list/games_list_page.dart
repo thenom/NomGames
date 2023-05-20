@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:nomgames/common/utils/colors.dart' as constants;
+import 'package:nomgames/common/utils/colours.dart' as constants;
 
-class TripsListPage extends StatelessWidget {
-  const TripsListPage({
+class GamesListPage extends StatelessWidget {
+  const GamesListPage({
     super.key,
   });
 
@@ -12,7 +12,7 @@ class TripsListPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
-          'Amplify Trips Planner',
+          'NomGames Server Listing',
         ),
         backgroundColor: const Color(constants.primaryColorDark),
       ),
@@ -22,7 +22,7 @@ class TripsListPage extends StatelessWidget {
         child: const Icon(Icons.add),
       ),
       body: const Center(
-        child: Text('Trips List'),
+        child: Text('Games List'),
       ),
     );
   }
