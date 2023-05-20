@@ -7,7 +7,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
-import 'package:nomgames/common/utils/colors.dart' as constants;
+import 'package:nomgames/common/utils/colours.dart' as constants;
 
 class EditGamePage extends HookConsumerWidget {
   EditGamePage({

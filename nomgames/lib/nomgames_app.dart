@@ -1,6 +1,7 @@
 import 'package:nomgames/features/game/ui/edit_game_page/edit_game_page.dart';
 import 'package:nomgames/features/game/ui/game_page/game_page.dart';
 import 'package:nomgames/features/game/ui/games_list/games_list_page.dart';
+import 'package:nomgames/models/ModelProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:amplify_authenticator/amplify_authenticator.dart';
