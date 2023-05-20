@@ -1,0 +1,16 @@
+{
+  "resourceName": "nomgamesappstorage",
+  "policyUUID": "297177c2",
+  "bucketName": "nomgamese6ac537992444fe78cfe8a534cab5c1e",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

@@ -18,6 +18,9 @@
       },
       "api": {
         "nomgames": {}
+      },
+      "storage": {
+        "nomgamesappstorage": {}
       }
     }
   }

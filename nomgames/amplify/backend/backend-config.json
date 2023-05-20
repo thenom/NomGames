@@ -53,5 +53,12 @@
       "service": "Cognito"
     }
   },
-  "function": {}
+  "function": {},
+  "storage": {
+    "nomgamesappstorage": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    }
+  }
 }
