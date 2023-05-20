@@ -1,3 +1,6 @@
+import 'package:amplify_api/amplify_api.dart';
+import 'package:amplify_datastore/amplify_datastore.dart';
+import 'package:nomgames/models/ModelProvider.dart';
 import 'package:nomgames/nomgames_app.dart';
 import 'package:flutter/material.dart';
 import 'package:amplify_flutter/amplify_flutter.dart';

@@ -72,7 +72,7 @@ class GameCard extends StatelessWidget {
                           fit: BoxFit.scaleDown,
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            game.destination,
+                            game.description,
                             style: Theme.of(context)
                                 .textTheme
                                 .headline5!
@@ -105,13 +105,9 @@ class GameCard extends StatelessWidget {
                       ),
                       Text(
                         DateFormat('dd MMMM yyyy')
-                            .format(game.startDate.getDateTime()),
+                            .format(game.releaseDate.getDateTime()),
                         style: const TextStyle(fontSize: 12),
                       ),
-                      Text(
-                          DateFormat('dd MMMM yyyy')
-                              .format(game.endDate.getDateTime()),
-                          style: const TextStyle(fontSize: 12)),
                     ],
                   ),
                 ),

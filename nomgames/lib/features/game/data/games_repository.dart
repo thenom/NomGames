@@ -13,12 +13,6 @@ final gamesListStreamProvider = StreamProvider.autoDispose<List<Game?>>((ref) {
   return gamesRepository.getGames();
 });
 
-final pastGamesListStreamProvider =
-    StreamProvider.autoDispose<List<Game?>>((ref) {
-  final gamesRepository = ref.watch(gamesRepositoryProvider);
-  return gamesRepository.getPastGames();
-});
-
 final gameProvider =
     StreamProvider.autoDispose.family<Game?, String>((ref, id) {
   final gamesRepository = ref.watch(gamesRepositoryProvider);
