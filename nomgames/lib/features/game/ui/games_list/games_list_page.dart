@@ -30,7 +30,7 @@ class GamesListPage extends HookConsumerWidget {
         appBar: AppBar(
           centerTitle: true,
           title: const Text(
-           'Amplify Games Planner',
+           'NomGames Planner',
           ),
           backgroundColor: const Color(constants.primaryColorDark),
         ),
